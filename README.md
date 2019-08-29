@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Burger  Delivery
+The basic web app for customizing your pizza by yourself and checkout your favourite PIZZA.
 
 ## Available Scripts
 
