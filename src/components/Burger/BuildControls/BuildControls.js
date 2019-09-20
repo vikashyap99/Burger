@@ -26,8 +26,14 @@ const buildControls = (props) => (
             added={() => props.ingredientadded(ctrl.type)}
             remove={() => props.ingredientremove(ctrl.type)} 
             disabled={props.disabled[ctrl.type]}
+
             />
         ))}
+        <button className={classes.OrderButton}
+        onClick = {props.ordered}>
+            
+        OREDR NOW</button>
+        <p>.</p>
     </div>
 );
 
